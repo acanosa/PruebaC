@@ -10,4 +10,6 @@
 
 double *dobleAleatorio(int cantidad);
 
+char *generarTextos(int cantidad);
+
 #endif /* SRC_FUNCIONES_H_ */
