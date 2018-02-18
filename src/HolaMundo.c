@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include "Funciones.h"
 
-double *dobleAleatorio(int cantidad);
 
 int main(){
 	srand(time(0));
@@ -13,11 +13,4 @@ int main(){
 	}
 }
 
-double *dobleAleatorio(int cantidad){
-	double *num = (double*) malloc(cantidad * sizeof(double));
 
-	for(int i=0;i<cantidad;i++){
-		num[i] = (double) (rand() % 11) / 1.57;
-	}
-	return num;
-}
